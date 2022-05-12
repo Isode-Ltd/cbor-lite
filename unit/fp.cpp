@@ -4,6 +4,7 @@
 // distribution.
 #include <cbor-lite/codec-fp.h>
 #include <boost/test/unit_test.hpp>
+#include <cmath>
 #include <tuple>
 
 BOOST_AUTO_TEST_SUITE(cbor_lite)
