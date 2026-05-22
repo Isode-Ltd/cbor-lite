@@ -19,10 +19,10 @@ Coding guidelines
 Source Code Access and Branch Flow
 ----------------------------------
 
-The primary source repository is hosted at [Bitbucket](https://bitbucket.org/isode/cbor-lite/) and can be checked out using
+The primary source repository is hosted at [GitHub](https://github.com/Isode-Ltd/cbor-lite) and can be checked out using
 
 ```
-git clone https://bitbucket.org/isode/cbor-lite.git
+git clone https://github.com/Isode-Ltd/cbor-lite.git
 ```
 
 'master' is the main *development* branch. New features, as well as bug fixes in not yet released features, should be developed against it, on a 'feature' branch.
@@ -32,12 +32,7 @@ git clone https://bitbucket.org/isode/cbor-lite.git
 Submission guidelines
 ---------------------
 
-To submit a patch, use:
-
-```
-git format-patch branch
-```
-
-where branch is the appropriate upstream branch (see Branch Flow discussion above). Then attach the patch to a new [issue report](https://bitbucket.org/isode/cbor-lite/issues).
-
-Alternatively, submit a pull request.
+To submit a change please:
+* Fork this repository.
+* Make the fix on the fork.
+* Submit a pull request from the fork back onto this repository.
