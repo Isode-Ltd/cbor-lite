@@ -35,6 +35,6 @@ CBOR-lite is not intended to be a generic decoder as described in [Section 3.2 o
 
 CBOR-lite is open-source. Community contributions are welcomed. See [contributing guidelines](CONTRIBUTING.md) for more information.
 
-More information about CBOR-lite is available at [https://bitbucket.org/isode/cbor-lite/wiki/Home](https://bitbucket.org/isode/cbor-lite/wiki/Home).
+More information about CBOR-lite is available at [https://github.com/Isode-Ltd/cbor-lite/wiki](https://github.com/Isode-Ltd/cbor-lite/wiki).
 
 See [COPYRIGHT.md](./COPYRIGHT.md) for [copyright and other legal notices](./COPYRIGHT.md).
