@@ -17,7 +17,7 @@ jobs:
         sudo apt install cmake ninja-build libboost-all-dev -y 
     
     - name: Checkout Repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     - name: Generate Build Files
       # Generate Ninja build files using Cmake
