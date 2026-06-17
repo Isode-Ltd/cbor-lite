@@ -14,7 +14,7 @@ jobs:
     - name: Install Required Libraries And Tools
       # Requires cmake, Ninja and boost librarires
       run: |
-        sudo apt install cmake ninja-build libboost-dev -y 
+        sudo apt install cmake ninja-build libboost-all-dev -y 
     
     - name: Checkout Repository
       uses: actions/checkout@v4
