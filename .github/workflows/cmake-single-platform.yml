@@ -14,7 +14,6 @@ jobs:
     - name: Install Required Libraries And Tools
       # Requires cmake, Ninja and boost librarires
       run: |
-        sudo apt update && sudo apt upgrade -y
         sudo apt install cmake ninja-build libboost-dev -y 
     
     - name: Checkout Repository
