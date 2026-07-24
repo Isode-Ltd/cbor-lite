@@ -5,7 +5,7 @@ if(POLICY CMP0167)
   cmake_policy(SET CMP0167 NEW)
 endif()
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 message(STATUS "C++ compiler is ${CMAKE_CXX_COMPILER_ID}")
@@ -24,9 +24,6 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "MSVC")
 else()
     add_compile_options(-O0)
     add_compile_options(-Wall -Wextra -pedantic -Wold-style-cast)
-    if(CMAKE_CXX_COMPILER_ID MATCHES "GNU")
-        add_compile_options(-Wno-implicit-fallthrough)
-    endif()
 endif()
 
 add_definitions(-DBOOST_NO_AUTO_PTR)
